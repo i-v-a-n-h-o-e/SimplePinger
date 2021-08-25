@@ -26,4 +26,4 @@ while True:
         status = str(now) + '\t' + str(r) + '\n'
         log.writelines(status)
         print(status)
-    time.sleep(random.randrange(55, 65))  # случайное время ожидания от 1 до 3 сек
+    time.sleep(random.randrange(55, 65))
